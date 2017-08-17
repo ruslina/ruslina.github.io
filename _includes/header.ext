@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>UAB Ruslina :: {{ page.menutitle }}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="Content-language" value="lt" />
+	<meta name="description" content="{{ page.description }}"/>
+	<meta name="keywords" content="{{ page.keywords }}"/>
+
+	<link rel="stylesheet" type="text/css" href="/public/css/main.css"/>
+
+	<script src="//maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAA-qXz8nI-Ne58va4cda-I2BTXuEW_nTcK3SPsrkvQkdaevilg9hR3hUw0Vsh0frUK1yQy7GgOxt3k6Q" type="text/javascript"></script>
+
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/public/js/jquery.cycle.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#index_content .slides').cycle({
+				fx: 	 'fade',
+				pager: 	 '#index_pager',
+				pause:	 1,
+				timeout: 5000,
+				speed:	 50,
+				dellay:	 1000
+				//fit:	 1,     // force slides to fit container
+    			//containerResize: 0,     // resize container to fit largest slide
+				//fastOnEvent: 1
+			});
+	
+			initGgMap();
+		});
+
+    	function initGgMap() {
+	      if (GBrowserIsCompatible()) {
+        	var map = new GMap2(document.getElementById("ggmap"));
+			var center = new GLatLng(54.83097493547272, 23.88142597679689);
+    	    map.setCenter(center, 15);
+			map.addOverlay(new GMarker(center));
+	        map.addControl(new GSmallMapControl());
+			map.addControl(new GMapTypeControl());
+    	  }
+	    }
+
+	</script>
+</head>
+<body>
+
+	<div id="body_block">
+
+		<div id="header_block">
+			<div class="border"></div>
+			<div id="header" class="inner_page">
+				<img class="logo" src="/public/img/top_logo.png" alt="UAB Ruslina" />
+
+				{% include top_menu.ext %}
+
+			</div>
+			<div class="clear"></div>
+			<div class="border"></div>
+		</div>
+
+{% include main_menu.ext %}
+
+

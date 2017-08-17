@@ -1,0 +1,72 @@
+		<div id="index_block">
+			<div id="index_content" class="inner_page">
+				<div class="slides">
+
+					<div class="slide">
+						<div class="info_box">
+							<h2>Santechnikos darbai</h2>
+							<p>
+								Vidaus ir lauko santechnikos darbai: šildymo, vandentiekio sistemų
+								instaliavimas, renovacija butuose, namuose.
+								Visų tipų katilinių įrengimas, priežiūra, garantijos.
+							</p>
+							<a href="santechnika.html">placiau</a>
+						</div>
+						<div class="images_box"><img src="/public/img/gallery_index/img1.png" alt="" /></div>
+					</div>
+
+					<div class="slide">
+						<div class="info_box">
+							<h2>Oro kondicionavimas</h2>
+							<p>
+								Oro kondicionavimo sistema leidžia sukurti komfortinę aplinką,
+								kurioje jūs geriausiai jaučiatės, su tinkama oro temperatūra ir drėgme.
+							</p>
+							<a href="kondicionieriai.html">placiau</a>
+						</div>
+						<div class="images_box"><img src="/public/img/gallery_index/img2.png" alt="" /></div>
+					</div>
+
+					<div class="slide">
+						<div class="info_box">
+							<h2>Saulės kolektoriai</h2>
+							<p>
+								Saulės kolektoriai šildymui ir karšto vandens ruošimui
+								- projektavimas, tiekimas, įrengimas.
+							</p>
+							<a href="kolektoriai.html">placiau</a>
+						</div>
+						<div class="images_box"><img src="/public/img/gallery_index/img3.png" alt="" /></div>
+					</div>
+
+					<div class="slide">
+						<div class="info_box">
+							<h2>Šildomos grindys</h2>
+							<p>
+								Šildymas grindimis — patogus, nes visa šiluma sklinda per grindis,
+								patalpa be radiatorių ant sienų yra didesnė. Gerai įrengtų šildomų
+								grindų visas plotas šyla tolygiai.
+							</p>
+							<a href="grindys.html">placiau</a>
+						</div>
+						<div class="images_box"><img src="/public/img/gallery_index/img4.png" alt="" /></div>
+					</div>
+
+					<div class="slide">
+						<div class="info_box">
+							<h2>Gręžimo darbai</h2>
+							<p>
+								Skylių gręžimas deimantiniais grąžtais šiandien yra pats
+								efektyviausias iš statybose naudojamų būdų kiaurymėms įvairiuose
+								paviršiuose išgręžti.
+							</p>
+							<a href="grezimas.html">placiau</a>
+						</div>
+						<div class="images_box"><img src="/public/img/gallery_index/img5.png" alt="" /></div>
+					</div>
+
+				</div>
+				<img class="images_border" src="/public/img/images_border.png" alt=""/>
+			</div>
+			<div id="index_pager" class="inner_page">&nbsp;</div>
+		</div> 

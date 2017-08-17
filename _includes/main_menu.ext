@@ -1,0 +1,27 @@
+
+		<div id="menu_block">
+			<ul class="menu inner_page"
+				><li><a href="santechnika.html"
+								><span class="left">&nbsp;</span
+								><span class="middle">Santechnikos darbai</span
+								><span class="right">&nbsp;</span></a></li
+				><li><a href="kondicionieriai.html"
+								><span class="left">&nbsp;</span
+								><span class="middle">Oro kondicionavimas</span
+								><span class="right">&nbsp;</span></a></li
+				><li><a href="kolektoriai.html"
+								><span class="left">&nbsp;</span
+								><span class="middle">Saulės kolektoriai</span
+								><span class="right">&nbsp;</span></a></li
+				><li><a href="grindys.html"
+								><span class="left">&nbsp;</span
+								><span class="middle">Šildomos grindys</span
+								><span class="right">&nbsp;</span></a></li
+				><li><a href="grezimas.html"
+								><span class="left">&nbsp;</span
+								><span class="middle">Gręžimo darbai</span
+								><span class="right">&nbsp;</span></a></li
+			></ul>
+			<div class="clear"></div>
+		</div>
+

@@ -1,0 +1,24 @@
+{% include header.ext %}
+
+{% if page.path == 'apie.html' %}
+
+		{% include images.ext %}
+        <div id="content_block">
+            <div class="content inner_page">
+                {{ content }}
+            </div>
+        </div>
+
+{% else %}
+
+        <div id="content_block">
+            <div class="content inner_page">
+                {{ content }}
+            </div>
+        </div>
+		{% include images.ext %}
+
+{% endif %}
+
+{% include footer.ext %}
+

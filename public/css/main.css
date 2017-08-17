@@ -1,0 +1,232 @@
+/* ======================================================== default styles = */
+div {border: 1px solid red;}
+
+* {margin:0;padding:0;}
+body {background: #080c0d;padding-top:10px;}
+a {text-decoration:none;}
+a img {border: none;}
+div.clear{clear:both;height:0;line-height:0;border:none;font-size:0;}
+
+div#body_block{border:none;}
+/* ======================================================== header styles == */
+div#header {height:75px;}
+div#footer {height:48px;}
+.inner_page {border:none;margin:0 auto;width:969px;}
+
+div#header_block, div#footer_block {
+	background: #080c0d url("/public/img/header_bg.png") repeat-y center top;
+	border: none;
+}
+div#header_block div.border, div#footer_block div.border {
+	height:1px;
+	line-height:1px;
+	font-size:1px;
+	background: #0d1214 url("/public/img/header_border.png") no-repeat center top;
+	border:none;
+}
+
+div#header img.logo {
+	float:left;
+	margin: 25px 10px;
+}
+
+div#header ul.menu {
+	float:right;
+	margin:10px;
+}
+div#header ul.menu li {
+	display:inline-block;
+}
+div#header ul.menu li img {
+	margin:0 5px;
+}
+div#header ul.menu li a {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size:12px;
+	text-transform:uppercase;
+	color:#595d60;
+	vertical-align:top;
+	line-height:10px;
+}
+div#header ul.menu li a:hover {color:#cccccc;}
+
+/* ======================================================== menu styles ==== */
+
+div#menu_block {border:none;margin-top:7px;}
+div#menu_block ul.menu {text-align:center;width:1000px;height:30px;margin:0 auto;}
+div#menu_block ul.menu li {display:inline-block;margin-left:1px;}
+div#menu_block ul.menu li a {height:30px;}
+
+div#menu_block ul.menu li a span {line-height:30px;width:6px;display:inline-block;border:none;float:left;}
+div#menu_block ul.menu li a span.left {
+	background: transparent url("/public/img/menu_button_left.png") no-repeat left top;
+}
+div#menu_block ul.menu li a span.right {
+	background: transparent url("/public/img/menu_button_right.png") no-repeat left top;
+}
+div#menu_block ul.menu li a span.middle {
+	background: transparent url("/public/img/menu_button_middle.png") repeat-x left top;
+	width: 181px;
+	height:30px;
+	text-align: center;
+	text-transform:uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:italic;
+	color:#737373;
+	text-shadow: white 1px 1px 1px;
+}
+div#menu_block ul.menu li a:hover span.left {
+	background: transparent url("/public/img/menu_button_left_hover.png") no-repeat left top;
+}
+div#menu_block ul.menu li a:hover span.right {
+	background: transparent url("/public/img/menu_button_right_hover.png") no-repeat left top;
+}
+div#menu_block ul.menu li a:hover span.middle {
+	background: transparent url("/public/img/menu_button_middle_hover.png") repeat-x left top;
+}
+
+/* ======================================================== img block styles */
+
+div#index_block {
+	background: transparent url("/public/img/index_bg.png") no-repeat center 28px;
+	padding-bottom:50px;
+	margin-bottom:-50px;
+	border:none;
+}
+
+div#index_content {
+	background:#dedede;
+	height:344px;
+	border:1px solid #0c0f12;
+}
+
+div.slides, div.slide, div.info_box {border:none;}
+div#index_content div.slide {width:100%;}
+
+div#index_content div.slides div.images_box {
+	line-height:0;
+	font-size:0;
+}
+div#index_content div.info_box {
+	width:350px;
+	height:340px;
+	float:left;
+	color:#4d535a;
+	font-family: Arial, Helvetica, sans-serif;
+}
+div#index_content div.info_box h2{
+	font-weight: normal;
+	font-size: 22px;
+	letter-spacing: 2px;
+	margin: 35px 0 0 21px;
+	cursor: default;
+}
+div#index_content div.info_box p{
+	font-size: 14px;
+	margin:26px 21px;
+	letter-spacing: 1px;
+	cursor: default;
+}
+div#index_content div.info_box a{
+	display:inline-block;
+	padding:0 20px;
+	margin-left:21px;
+	border: 1px solid black;
+	background: #141920 url('/public/img/index_box_link_bg.png') repeat-x top left;
+	color:white;
+	font-size: 12px;
+	line-height:23px;
+}
+
+div#index_content div.images_box {
+	border:none;
+	float:right;
+}
+div#index_content div.slide {
+	display:none;
+}
+div#index_content img.images_border {
+	float:right;
+	position:relative;
+	margin-top:-344px;
+	z-index:8;
+}
+
+div#index_pager {height:40px;text-align:right;}
+div#index_pager a, div#index_pager a:hover, div#index_pager a:visited, div#index_pager a:active {
+	display:inline-block;
+	width:12px;
+	height:12px;
+	margin:0 3px;
+	background:black;
+	border:1px solid #1f2e3d;
+	color:#10171b;
+	font-size:0;
+	line-height:0;
+}
+div#index_pager a.activeSlide {border:1px solid #6e7a84 ;}
+
+/* ======================================================== content block styles */
+
+div#content_block {
+	border:none;
+	margin-bottom:5px;
+}
+div#content_block div.content{
+	padding:0 0 20px 0;
+	border:none;
+	background:#f9f9f9;
+	color:#4d535a;
+	font-family: Arial, Helvetica, sans-serif;
+}
+div#content_block div.content h2{
+	font-weight: normal;
+	font-size: 26px;
+	letter-spacing: 1px;
+	padding: 35px 0 0 21px;
+	text-transform:uppercase;
+}
+div#content_block div.content p{
+	font-size: 15px;
+	margin:26px 21px;
+	letter-spacing: 0px;
+}
+div#content_block div.content li{
+	font-size: 15px;
+	margin:26px 21px;
+	letter-spacing: 0px;
+	list-style:none;
+	margin:10px 20px 10px 20px;
+}
+div#content_block div.content img{
+	float:right;
+	margin-top:-55px;
+}
+
+div#content_block div.content div#ggmap,
+div#content_block div.content div#ggmap *{
+	border:none;
+}
+
+/* ======================================================== footer block styles */
+
+div#footer_block{
+	border:none;
+}
+div#footer span, div#footer span a{
+	color:#7d7f7f;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height:45px;
+	font-size:12px;
+}
+div#footer span.left{float:left;}
+div#footer span.right{float:right;}
+
+div#footer span a:hover{
+	color:white;
+	text-decoration:underline;
+}
+
+
+
